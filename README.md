@@ -1,9 +1,9 @@
-# Anjani
+# Telegram Group Bot
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![DeepSource](https://deepsource.io/gh/userbotindo/Anjani.svg/?label=active+issues)](https://deepsource.io/gh/userbotindo/Anjani/?ref=repository-badge)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dea98029aaf248538a413e26aa2a194a)](https://www.codacy.com/gh/userbotindo/Anjani/dashboard?utm_source=github.com&utm_medium=referral&utm_content=userbotindo/Anjani&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dea98029aaf248538a413e26aa2a194a)](https://www.codacy.com/gh/levina-lab/TelegramGroupBot/dashboard?utm_source=github.com&utm_medium=referral&utm_content=levina-lab/TelegramGroupBot&utm_campaign=Badge_Grade)
 [![Crowdin](https://badges.crowdin.net/anjani-bot/localized.svg)](https://crowdin.com/project/anjani-bot)
 
 A modular Telegram group management bot running with Python based on [Pyrogram](https://github.com/pyrogram/pyrogram).
@@ -45,4 +45,4 @@ If you want to make your custom plugins, refer to [Anjani's Wiki](https://github
 
 - [Userge](https://github.com/UsergeTeam/Userge)
 - [Marie](https://github.com/PaulSonOfLars/tgbot)
-- [All Contributors 👥](https://github.com/userbotindo/Anjani/graphs/contributors)
+- [All Contributors 👥](https://github.com/levina-lab/TelegramGroupBot/graphs/contributors)
