@@ -18,8 +18,8 @@ import asyncio
 
 from pyrogram import filters
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import adminlist, user_ban_protected
+from telegram_bot import listener, plugin
+from telegram_bot.utils import adminlist, user_ban_protected
 
 
 class Reporting(plugin.Plugin):
