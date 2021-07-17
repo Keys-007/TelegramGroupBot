@@ -18,8 +18,8 @@ from typing import ClassVar
 
 from pyrogram.errors import PeerIdInvalid, UserNotParticipant
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import (
+from telegram_bot import listener, plugin
+from telegram_bot.utils import (
     ParsedChatMember,
     extract_user,
     extract_user_and_text,
