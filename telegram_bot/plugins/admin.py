@@ -24,8 +24,8 @@ from pyrogram.errors import (
     UserIdInvalid,
 )
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import adminlist, extract_user_and_text
+from telegram_bot import listener, plugin
+from telegram_bot.utils import adminlist, extract_user_and_text
 
 
 class Admin(plugin.Plugin):
