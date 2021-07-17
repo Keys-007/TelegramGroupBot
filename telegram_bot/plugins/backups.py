@@ -22,7 +22,7 @@ from typing import ClassVar
 
 from pyrogram import filters
 
-from anjani_bot import listener, plugin
+from telegram_bot import listener, plugin
 
 
 class Backups(plugin.Plugin):
