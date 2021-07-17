@@ -41,7 +41,7 @@ def setup_log():
     """Configures logging"""
     log_level = environ.get("LOG_LEVEL", "info")
     level = _level_check(log_level.upper())
-    file_path = f"anjani_bot/core/AnjaniBot-{datetime.now().strftime('%Y-%m-%d')}.log"
+    file_path = f"telegram_bot/core/TelegramGroupBot-{datetime.now().strftime('%Y-%m-%d')}.log"
 
     logging.root.setLevel(level)
 
