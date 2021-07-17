@@ -28,9 +28,9 @@ from pyrogram.types import User
 from requests import exceptions
 from spamwatch.types import Ban
 
-from anjani_bot import listener, plugin
-from anjani_bot.core import pool
-from anjani_bot.utils import ParsedChatMember, user_ban_protected
+from telegram_bot import listener, plugin
+from telegram_bot.core import pool
+from telegram_bot.utils import ParsedChatMember, user_ban_protected
 
 LOGGER = logging.getLogger(__name__)
 
