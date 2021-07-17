@@ -21,7 +21,7 @@ from pyrogram import filters
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from anjani_bot import listener, plugin
+from telegram_bot import listener, plugin
 
 
 class Main(plugin.Plugin):
