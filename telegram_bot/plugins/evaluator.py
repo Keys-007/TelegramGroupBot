@@ -19,7 +19,7 @@ import sys
 import traceback
 from typing import ClassVar
 
-from anjani_bot import listener, plugin
+from telegram_bot import listener, plugin
 
 
 class Evaluator(plugin.Plugin):
