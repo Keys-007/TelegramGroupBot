@@ -22,8 +22,8 @@ from motor.motor_asyncio import AsyncIOMotorCollection
 from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import extract_user, extract_user_and_text
+from telegram_bot import listener, plugin
+from telegram_bot.utils import extract_user, extract_user_and_text
 
 
 class Users(plugin.Plugin):
