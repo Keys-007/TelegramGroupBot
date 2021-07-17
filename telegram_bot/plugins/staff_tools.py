@@ -30,8 +30,8 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import paste
+from telegram_bot import listener, plugin
+from telegram_bot.utils import paste
 
 LOGGER = logging.getLogger(__name__)
 
