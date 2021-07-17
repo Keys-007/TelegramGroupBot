@@ -26,8 +26,8 @@ from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import (
+from telegram_bot import listener, plugin
+from telegram_bot.utils import (
     ParsedChatMember,
     extract_user,
     extract_user_and_text,
