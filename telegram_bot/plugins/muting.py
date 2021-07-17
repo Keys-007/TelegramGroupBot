@@ -22,8 +22,8 @@ from pyrogram.errors import (
 )
 from pyrogram.types import ChatPermissions
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import (
+from telegram_bot import listener, plugin
+from telegram_bot.utils import (
     ParsedChatMember,
     extract_time,
     extract_user,
