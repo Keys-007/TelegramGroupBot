@@ -16,7 +16,7 @@
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from anjani_bot import listener, plugin
+from telegram_bot import listener, plugin
 
 
 class Rules(plugin.Plugin):
