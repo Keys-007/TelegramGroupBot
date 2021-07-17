@@ -30,7 +30,7 @@ from .base import Base
 from .client import Client
 
 if TYPE_CHECKING:
-    from .anjani import Anjani
+    from .telegramgroupbot import TelegramGroupBot
 
 LOG = logging.getLogger(__name__)
 
@@ -93,7 +93,7 @@ class TelegramBot(Base):
         self.client.executor.shutdown()
         self.client.executor = pool.start()
 
-        await self.connect_db("AnjaniBot")
+        await self.connect_db("TelegramGroupBot")
         self._load_language()
         try:
             subplugins = [
