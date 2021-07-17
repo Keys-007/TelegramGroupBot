@@ -47,7 +47,7 @@ class Staff(plugin.Plugin):
     @listener.on(["log", "logs"], staff_only=True)
     async def logs(self, message):
         """Get bot logging as file"""
-        core_path = "anjani_bot/core"
+        core_path = "telegram_bot/core"
         if message.command:
             log_file = os.path.join(core_path, message.command[0])
         else:
