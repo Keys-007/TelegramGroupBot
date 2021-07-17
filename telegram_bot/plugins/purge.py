@@ -18,7 +18,7 @@ import asyncio
 from datetime import datetime
 from typing import ClassVar
 
-from anjani_bot import listener, plugin
+from telegram_bot import listener, plugin
 
 
 class Purges(plugin.Plugin):
