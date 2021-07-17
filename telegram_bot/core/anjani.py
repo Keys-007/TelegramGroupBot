@@ -36,7 +36,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 class Anjani(TelegramBot, DataBase, PluginExtender):
-    """AnjaniBot Client"""
+    """TelegramGroupBot Client"""
 
     client: pyrogram.Client
     http: aiohttp.ClientSession
@@ -62,7 +62,7 @@ class Anjani(TelegramBot, DataBase, PluginExtender):
         output += f"Staff list:{json.dumps(self.staff, indent=2)}\n"
         output += f"Python: {version_info[0]}.{version_info[1]}.{version_info[2]}\n"
         output += f"Pyrogram: {pyrogram.__version__}\n"
-        output += f"Anjani: {self.version}\n"
+        output += f"TelegramGroupBot: {self.version}\n"
         return output
 
     @property
@@ -70,8 +70,8 @@ class Anjani(TelegramBot, DataBase, PluginExtender):
         """Get bot uptime"""
         return get_readable_time(time.time() - self._start_time)
 
-    async def begin(self, loop: Optional[asyncio.AbstractEventLoop] = None) -> "Anjani":
-        """Start AnjaniBot"""
+    async def begin(self, loop: Optional[asyncio.AbstractEventLoop] = None) -> "TelegramGroupBot":
+        """Start TelegramGroupBot"""
         if loop:
             asyncio.set_event_loop(loop)
             self.loop = loop
