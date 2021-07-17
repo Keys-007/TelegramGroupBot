@@ -30,7 +30,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 def command(commands: Union[str, List[str]], case_sensitive: bool = False):
-    """Build a command that accept bot username eg: /start@AnjaniBot"""
+    """Build a command that accept bot username eg: /start@TelegramGroupBot"""
 
     async def func(flt, client, message: Message):
         text: str = message.text or message.caption
