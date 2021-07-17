@@ -19,7 +19,7 @@ import logging
 
 import aiorun
 
-from .core import Anjani, setup_log
+from .core import TelegramGroupBot, setup_log
 
 aiorun.logger.disabled = True
 log = logging.getLogger("Main")
@@ -44,4 +44,4 @@ def start():
         uvloop.install()
 
     loop = asyncio.new_event_loop()
-    aiorun.run(anjani.begin(loop=loop), loop=loop)
+    aiorun.run(telegramgroupbot.begin(loop=loop), loop=loop)
