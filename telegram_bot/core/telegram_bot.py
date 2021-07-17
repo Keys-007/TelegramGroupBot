@@ -48,13 +48,13 @@ class TelegramBot(Base):
     stopping: bool
     username: str
 
-    def __init__(self: "Anjani", **kwargs: Any) -> None:
+    def __init__(self: "TelegramGroupBot", **kwargs: Any) -> None:
         self.get_config = BotConfig()
         self.staff = {}
 
         super().__init__(**kwargs)
 
-    async def init_client(self: "Anjani") -> None:
+    async def init_client(self: "TelegramGroupBot") -> None:
         """Initialize pyrogram client"""
         api_id = self.get_config.api_id
         if api_id == 0:
@@ -79,7 +79,7 @@ class TelegramBot(Base):
 
         self.staff = {"owner": owner}
 
-    async def start(self: "Anjani") -> None:
+    async def start(self: "TelegramGroupBot") -> None:
         """Start client"""
         LOG.info("Starting Bot Client...")
         try:
@@ -97,8 +97,8 @@ class TelegramBot(Base):
         self._load_language()
         try:
             subplugins = [
-                importlib.import_module("anjani_bot.plugins." + info.name, __name__)
-                for info in pkgutil.iter_modules(["anjani_bot/plugins"])
+                importlib.import_module("telegram_bot.plugins." + info.name, __name__)
+                for info in pkgutil.iter_modules(["telegram_bot/plugins"])
             ]
         except Exception as err:  # pylint: disable=broad-except
             traceback.print_exc()
@@ -113,7 +113,7 @@ class TelegramBot(Base):
         await self._load_all_attribute()
         await self.channel_log("Bot started successfully...")
 
-    async def run(self: "Anjani") -> None:
+    async def run(self: "TelegramGroupBot") -> None:
         """Run PyroClient"""
         try:
             # Start client
