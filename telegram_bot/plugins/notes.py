@@ -22,8 +22,8 @@ from motor.motor_asyncio import AsyncIOMotorCollection
 from pyrogram import filters
 from pyrogram.types import Message
 
-from anjani_bot import listener, plugin
-from anjani_bot.utils import MessageParser, SendFormating, Types
+from telegram_bot import listener, plugin
+from telegram_bot.utils import MessageParser, SendFormating, Types
 
 
 class NotesBase(SendFormating, MessageParser):
