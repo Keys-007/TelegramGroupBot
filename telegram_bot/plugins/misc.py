@@ -22,9 +22,9 @@ from covid import Covid
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from anjani_bot import listener, plugin
-from anjani_bot.core.pool import run_in_thread
-from anjani_bot.utils import PasteBin, format_integer
+from telegram_bot import listener, plugin
+from telegram_bot.core.pool import run_in_thread
+from telegram_bot.utils import PasteBin, format_integer
 
 
 class Misc(plugin.Plugin):
