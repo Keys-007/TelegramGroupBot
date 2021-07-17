@@ -35,7 +35,7 @@ Install all required dependencies by running
 
 Once everything set up, start the client by running
 
-`python3 -m anjani_bot`
+`python3 -m telegram_bot`
 
 ## Plugin
 
