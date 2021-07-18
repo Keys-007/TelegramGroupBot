@@ -19,6 +19,11 @@ Help us to cover more languages by contributing in [Crowdin](https://crowdin.com
 - [Telegram Bot Token](https://t.me/botfather)
 - [MongoDB Database](https://cloud.mongodb.com/).
 
+## Deploy Bot
+The Easy Way To Deploy Your Own Bot On Heroku.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/TelegramGroupBot)
+
 ## Set Up
 
 ### Configuration
