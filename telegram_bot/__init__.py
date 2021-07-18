@@ -1,4 +1,4 @@
-"""Initialize Framework for Anjani"""
+"""Initialize Framework for Telegram Group Bot"""
 # Copyright (C) 2020 - 2021  UserbotIndo Team, <https://github.com/userbotindo.git>
 #
 # This program is free software: you can redistribute it and/or modify
