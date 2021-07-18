@@ -23,7 +23,7 @@ from .core import TelegramGroupBot, setup_log
 
 aiorun.logger.disabled = True
 log = logging.getLogger("Main")
-anjani = Anjani()
+telegramgroupbot = TelegramGroupBot()
 
 
 def start():
