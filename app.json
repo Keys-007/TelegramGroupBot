@@ -1,11 +1,7 @@
 {
   "name": "Telegram Group Bot",
   "description": "The Powerful Telegram Group Management Bot.",
-  "keywords": [
-    "telegram"
-    "group"
-    "management"
-    "python"
+  "keywords": ["telegram", "group", "management", "python"
   ],
   "repository": "https://github.com/levina-lab/TelegramGroupBot",
   "stack": "container",
@@ -32,7 +28,7 @@
     },
     "DB_URI": {
       "description": "mongodb url from https://cloud.mongodb.com/",
-      "required": true
+      "required": true,
       "value": ""
     },
     "DOWNLOAD_PATH": {
