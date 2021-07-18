@@ -5,7 +5,7 @@ FROM python:3.9-slim-buster
 ENV PATH="${PATH}:/root/.poetry/bin"
 
 # set the working directory in the container
-WORKDIR /anjani/
+WORKDIR /telegramgroupbot/
 
 RUN apt-get -qq update && apt-get -qq upgrade -y
 RUN apt-get -qq install -y --no-install-recommends \
