@@ -7,7 +7,7 @@ authors = ["levina-lab"]
 readme = "README.md"
 homepage = "https://github.com/levina-lab/telegramgroupbot#readme"
 repository = "https://github.com/levina-lab/telegramgroupbot"
-documentation = "https://github.com/userbotindo/Anjani/wiki"
+documentation = "https://github.com/levina-lab/TelegramGroupBot/wiki"
 keywords = ["chatbot", "bot", "python", "telegram-bot", "pyrogram"]
 classifiers = [
     "Environment :: Console",
