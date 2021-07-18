@@ -1,22 +1,22 @@
 ﻿version: '3.7'
 
 services:
-  anjani:
+  telegramgroupbot:
     build:
       context: .
     depends_on:
       - mongo
     restart: on-failure
     environment:
-      DB_URI: 'mongodb://anjani:mypasswd@mongo'
+      DB_URI: 'mongodb://veez:veezproject@mongo'
 
   mongo:
     image: 'mongo:latest'
     volumes:
       - 'mongo_anjani:/data/db'
     environment:
-      MONGO_INITDB_ROOT_USERNAME: anjani
-      MONGO_INITDB_ROOT_PASSWORD: mypasswd
+      MONGO_INITDB_ROOT_USERNAME: veez
+      MONGO_INITDB_ROOT_PASSWORD: veezproject
 
 volumes:
-  mongo_anjani:
+  mongo_telegramgroupbot:
