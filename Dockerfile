@@ -15,7 +15,7 @@ RUN apt-get -qq install -y --no-install-recommends \
     gnupg2 
 
 # Copy directory and install dependencies
-COPY . /anjani
+COPY . /telegramgroupbot
 RUN pip install --upgrade pip
 RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 
