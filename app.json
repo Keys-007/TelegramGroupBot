@@ -47,6 +47,7 @@
     },
     "LOG_LEVEL": {
       "description": "logging level of this bot, Avaliable level [CRITICAL, ERROR, WARNING, INFO, DEBUG]",
+      "required": false,
       "value": ""
     }
   }
