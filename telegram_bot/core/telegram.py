@@ -70,8 +70,7 @@ class Anjani(TelegramBot, DataBase, PluginExtender):
         """Get bot uptime"""
         return get_readable_time(time.time() - self._start_time)
 
-    async def begin
-    (self, loop: Optional[asyncio.AbstractEventLoop] = None) -> "TelegramBot":
+    async def begin(self, loop: Optional[asyncio.AbstractEventLoop] = None) -> "TelegramBot":
         """Start TelegramGroupBot"""
         if loop:
             asyncio.set_event_loop(loop)
