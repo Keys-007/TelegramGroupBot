@@ -4,7 +4,7 @@
   "keywords": ["telegram", "group", "management", "python"
   ],
   "repository": "https://github.com/levina-lab/TelegramGroupBot",
-  "logo": "https://telegra.ph/file/d0cda6fee4b1e0c580116.png",
+  "logo": "https://i.postimg.cc/50tDJrBV/logo7-19-01141.png",
   "stack": "container",
   "env": {
     "API_ID": {
