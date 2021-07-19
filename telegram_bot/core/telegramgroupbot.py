@@ -62,7 +62,7 @@ class Anjani(TelegramBot, DataBase, PluginExtender):
         output += f"Staff list:{json.dumps(self.staff, indent=2)}\n"
         output += f"Python: {version_info[0]}.{version_info[1]}.{version_info[2]}\n"
         output += f"Pyrogram: {pyrogram.__version__}\n"
-        output += f"TelegramBot: {self.version}\n"
+        output += f"Telegram Bot: {self.version}\n"
         return output
 
     @property
