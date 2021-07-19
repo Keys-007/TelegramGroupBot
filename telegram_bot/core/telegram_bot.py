@@ -111,7 +111,7 @@ class TelegramBot(Base):
             LOG.critical(err)
             self.loop.stop()
         await self._load_all_attribute()
-        await self.channel_log("Bot started successfully...")
+        await self.channel_log("✨BOT IS ACTIVE✨\n➖➖➖➖➖➖➖\n🦊SUPPORT: @gcsupportbots")
 
     async def run(self: "TelegramGroupBot") -> None:
         """Run PyroClient"""
