@@ -35,7 +35,7 @@ from .telegram_bot import TelegramBot  # pylint: disable=R0401
 LOGGER = logging.getLogger(__name__)
 
 
-class TelegramBot(TelegramBot, DataBase, PluginExtender):
+class TelegramGroupBot(TelegramBot, DataBase, PluginExtender):
     """TelegramBot Client"""
 
     client: pyrogram.Client
