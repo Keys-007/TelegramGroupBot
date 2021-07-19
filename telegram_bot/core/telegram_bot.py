@@ -111,7 +111,8 @@ class TelegramBot(Base):
             LOG.critical(err)
             self.loop.stop()
         await self._load_all_attribute()
-        await self.channel_log("✨ BOT IS ACTIVE NOW ✨\n➖➖➖➖➖➖➖➖➖➖\n🦊SUPPORT: @gcsupportbots"
+        await self.channel_log("✨ BOT IS ACTIVE NOW ✨"
+                               "\n➖➖➖➖➖➖➖➖➖➖\n🦊SUPPORT: @gcsupportbots"
                                "\n➖➖➖➖➖➖➖➖➖➖\n📣CHANNEL: @levinachannel")
 
     async def run(self: "TelegramGroupBot") -> None:
