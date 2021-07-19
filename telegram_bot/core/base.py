@@ -18,9 +18,9 @@ from typing import TYPE_CHECKING, Any
 
 Base: Any
 if TYPE_CHECKING:
-    from .anjani import Anjani
+    from .telegramgroupbot import TelegramGroupBot
 
-    Base = Anjani
+    Base = TelegramGroupBot
 else:
     import abc
 
