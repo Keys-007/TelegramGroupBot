@@ -91,8 +91,8 @@ class TelegramBot(Base):
 
         # Initialize pool
         self.client.executor.shutdown()
-        print("BOT STARTED")
         self.client.executor = pool.start()
+        print("BOT STARTED")
 
         await self.connect_db("TelegramGroupBot")
         self._load_language()
