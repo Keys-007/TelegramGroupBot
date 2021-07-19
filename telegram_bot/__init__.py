@@ -25,6 +25,7 @@ aiorun.logger.disabled = True
 log = logging.getLogger("Main")
 telegramgroupbot = TelegramGroupBot()
 
+LOGGER = logging.getLogger("__name__").setLevel(logging.WARNING)
 
 def start():
     """Main entry point"""
