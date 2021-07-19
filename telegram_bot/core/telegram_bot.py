@@ -91,6 +91,7 @@ class TelegramBot(Base):
 
         # Initialize pool
         self.client.executor.shutdown()
+        print("BOT STARTED")
         self.client.executor = pool.start()
 
         await self.connect_db("TelegramGroupBot")
