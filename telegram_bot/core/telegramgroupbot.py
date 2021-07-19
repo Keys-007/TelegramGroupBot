@@ -30,7 +30,7 @@ from ..utils import get_readable_time
 from . import pool
 from .database import DataBase
 from .plugin_extender import PluginExtender  # pylint: disable=R0401
-from .telegram_bot import TelegramGroupBot  # pylint: disable=R0401
+from .telegram_bot import TelegramBot  # pylint: disable=R0401
 
 LOGGER = logging.getLogger(__name__)
 
