@@ -8,7 +8,7 @@
 
 A modular Telegram group management bot running with Python based on [Pyrogram](https://github.com/pyrogram/pyrogram).
 
-Can be found on Telegram as [Anjani](https://t.me/dAnjani_bot).
+Can be found on Telegram as [GroupBot](https://t.me/tgchatroombot).
 
 Help us to cover more languages by contributing in [Crowdin](https://crowdin.com/project/anjani-bot)!
 
@@ -44,7 +44,7 @@ Once everything set up, start the client by running
 
 ## Plugin
 
-If you want to make your custom plugins, refer to [Anjani's Wiki](https://github.com/userbotindo/Anjani/wiki). It has a lot of important things to read and a plugin example to guide you.
+If you want to make your custom plugins, refer to [TgBot's Wiki](https://github.com/userbotindo/Anjani/wiki). It has a lot of important things to read and a plugin example to guide you.
 
 ## Credits
 
